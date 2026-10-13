@@ -1,0 +1,416 @@
+{
+ "app": "xiangmu-tuijin",
+ "version": 3,
+ "savedAt": "2026-10-12T15:23:32.558Z",
+ "tasks": [
+  {
+   "id": "k1",
+   "name": "第三章初稿",
+   "group": "博士论文",
+   "start": "2026-09-11",
+   "end": "2026-10-11",
+   "progress": 35,
+   "color": "indigo",
+   "note": "先写方法",
+   "updated": 1790000000000
+  },
+  {
+   "id": "k2",
+   "name": "提交论文",
+   "group": "博士论文",
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "progress": 0,
+   "color": "coral",
+   "note": "",
+   "kind": "milestone",
+   "updated": 1790000000001
+  },
+  {
+   "id": "k3",
+   "name": "数据处理",
+   "group": "",
+   "start": "2026-08-12",
+   "end": "2026-08-22",
+   "progress": 100,
+   "color": "teal",
+   "note": "",
+   "updated": 1790000000002
+  }
+ ],
+ "notes": [
+  {
+   "id": "day-2026-09-20",
+   "text": "## 今天\n- [x] 组会\n- [ ] 改图 #喷流",
+   "created": 1790000000000,
+   "updated": 1790000000000,
+   "day": "2026-09-20"
+  },
+  {
+   "id": "n1",
+   "text": "# 组会记录\n\n公式 $E=mc^2$\n\n| a | b |\n| --- | --- |\n| 1 | 2 |\n\n[[第三章]] #组会",
+   "created": 1789500000000,
+   "updated": 1790000000003,
+   "group": "博士论文",
+   "folder": "f1",
+   "star": true
+  },
+  {
+   "id": "n2",
+   "text": "第三章\n\n> [!note] 提示\n> 内容\n\n```python\nprint(1)\n```",
+   "created": 1789400000000,
+   "updated": 1790000000004
+  },
+  {
+   "id": "n3",
+   "text": "冲突副本的内容",
+   "created": 1789300000000,
+   "updated": 1790000000005,
+   "conflict": true
+  }
+ ],
+ "log": {
+  "2026-09-19": [
+   {
+    "id": "k1",
+    "name": "第三章初稿",
+    "from": 20,
+    "to": 35,
+    "t0": 1789800000000,
+    "t": 1789900000000
+   }
+  ]
+ },
+ "todos": [
+  {
+   "id": "t1",
+   "text": "交报销单 #报销",
+   "due": "2026-09-23",
+   "time": "14:00",
+   "group": "博士论文",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  },
+  {
+   "id": "t2",
+   "text": "读完 Chitta 2023",
+   "doneAt": 1789990000000,
+   "created": 1789980000000,
+   "updated": 1789990000000
+  },
+  {
+   "id": "t3",
+   "text": "没日期的待办",
+   "created": 1790000000000,
+   "updated": 1790000000006
+  }
+ ],
+ "folders": [
+  {
+   "id": "f1",
+   "name": "组会",
+   "order": 1,
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "papers": [
+  {
+   "id": "p1",
+   "title": "Coronal jets and SEE electrons",
+   "venue": "ApJ",
+   "events": [
+    {
+     "id": "e0",
+     "k": "draft",
+     "d": "2026-06-23"
+    },
+    {
+     "id": "e1",
+     "k": "submitted",
+     "d": "2026-08-22",
+     "note": "投了"
+    }
+   ],
+   "due": "2026-10-21",
+   "link": "https://arxiv.org/abs/2401.00001",
+   "note": "备注",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "apps": [
+  {
+   "id": "a1",
+   "name": "JSPS",
+   "org": "NAOJ",
+   "deadline": "2026-10-11",
+   "status": "prep",
+   "items": [
+    {
+     "id": "i1",
+     "text": "研究计划",
+     "done": true
+    },
+    {
+     "id": "i2",
+     "text": "简历"
+    }
+   ],
+   "refs": [
+    {
+     "id": "r1",
+     "name": "Warmuth",
+     "s": "asked",
+     "asked": "2026-09-16"
+    }
+   ],
+   "link": "https://www.jsps.go.jp/",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "waits": [
+  {
+   "id": "w1",
+   "who": "Krucker",
+   "what": "STIX 能谱",
+   "since": "2026-09-12",
+   "every": 7,
+   "last": "2026-09-19",
+   "nudges": 1,
+   "note": "发过邮件",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "prefs": [
+  {
+   "id": "mod:focus",
+   "type": "focus",
+   "cfg": {
+    "len": 50,
+    "brk": 10
+   },
+   "updated": 1790000000000
+  },
+  {
+   "id": "mod:kbx",
+   "type": "kanban",
+   "name": "观测",
+   "icon": "board",
+   "cfg": {
+    "cols": [
+     {
+      "id": "c1",
+      "name": "想法"
+     },
+     {
+      "id": "c2",
+      "name": "完成"
+     }
+    ]
+   },
+   "updated": 1790000000000
+  },
+  {
+   "id": "mod:mtx",
+   "type": "metric",
+   "name": "体重",
+   "icon": "pulse",
+   "cfg": {
+    "unit": "kg",
+    "goal": 72,
+    "dir": "down",
+    "dec": 1
+   },
+   "updated": 1790000000000
+  },
+  {
+   "id": "rail",
+   "order": [
+    "papers",
+    "apps",
+    "waits",
+    "reading",
+    "trips",
+    "habits",
+    "focus",
+    "counts",
+    "review",
+    "links",
+    "ledger",
+    "kbx",
+    "mtx"
+   ],
+   "updated": 1790000000000
+  }
+ ],
+ "reading": [
+  {
+   "id": "r1",
+   "title": "Picoflare jets",
+   "status": "reading",
+   "authors": "Chitta, L. P. et al.",
+   "year": "2023",
+   "venue": "Science",
+   "link": "https://ui.adsabs.harvard.edu/abs/2023Sci...381..867C",
+   "tags": [
+    "喷流"
+   ],
+   "stars": 4,
+   "note": "要点",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "trips": [
+  {
+   "id": "tr1",
+   "name": "AGU",
+   "city": "SF",
+   "start": "2026-11-10",
+   "end": "2026-11-14",
+   "abs": "2026-09-26",
+   "reg": "2026-10-21",
+   "link": "https://agu.org/",
+   "checks": [
+    {
+     "id": "c1",
+     "text": "提交摘要",
+     "done": true
+    },
+    {
+     "id": "c2",
+     "text": "报销"
+    }
+   ],
+   "note": "x",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "habits": [
+  {
+   "id": "h1",
+   "name": "跑步",
+   "color": "coral",
+   "goal": 3,
+   "days": [
+    "2026-09-18",
+    "2026-09-20"
+   ],
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "focus": [
+  {
+   "id": "fc1",
+   "at": 1789997000000,
+   "min": 25,
+   "label": "写引言",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "counts": [
+  {
+   "id": "ct1",
+   "title": "博士答辩",
+   "date": "2027-02-18",
+   "note": "春天",
+   "color": "coral",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  },
+  {
+   "id": "ct2",
+   "title": "生日",
+   "date": "1995-04-30",
+   "repeat": "year",
+   "color": "plum",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "reviews": [
+  {
+   "id": "wk-2026-09-14",
+   "good": "图画完了",
+   "bad": "拖延",
+   "next": "- 投稿",
+   "updated": 1790000000000
+  }
+ ],
+ "links": [
+  {
+   "id": "l1",
+   "title": "ADS",
+   "url": "https://ui.adsabs.harvard.edu/",
+   "group": "科研",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "ledger": [
+  {
+   "id": "g1",
+   "date": "2026-09-20",
+   "amt": 12.5,
+   "kind": "out",
+   "cat": "餐饮",
+   "note": "午饭",
+   "reimb": 1,
+   "created": 1790000000000,
+   "updated": 1790000000000
+  },
+  {
+   "id": "g2",
+   "date": "2026-09-19",
+   "amt": 2200,
+   "kind": "in",
+   "cat": "工资",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "cards": [
+  {
+   "id": "cd1",
+   "board": "kbx",
+   "col": "c1",
+   "title": "NVST 提案",
+   "order": 1,
+   "note": "n",
+   "due": "2026-09-27",
+   "label": "indigo",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "metrics": [
+  {
+   "id": "m1",
+   "m": "mtx",
+   "date": "2026-09-20",
+   "v": 72.4,
+   "note": "早上",
+   "created": 1790000000000,
+   "updated": 1790000000000
+  }
+ ],
+ "futureThing": [
+  {
+   "id": "z1",
+   "anything": {
+    "deep": [
+     1,
+     2,
+     3
+    ]
+   },
+   "updated": 1790000000000
+  }
+ ]
+}
